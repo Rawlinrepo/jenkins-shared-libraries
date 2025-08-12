@@ -9,4 +9,5 @@ def call(){
   docker login -u $username -p $password
   docker push $username/frontend:latest
   '''
+  }
 }
